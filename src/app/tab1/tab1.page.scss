@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+.ion-header .ion-content{
+  font-family: 'Poppins', sans-serif;
+}
+.title-home {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.verTodos{
+    margin: 5px 5px;
+    font-size: 15px;
+    float: right;
+}
+
+.pesquisa{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 350px;
+  height: 26px;
+  margin-left: 15%;
+}
+.swiper-slide {
+  margin-left:30px;
+  padding:10px;
+  width: 60% !important;
+}
+
+.swiper-pagination {
+  display: none !important;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+
+  display: none !important;
+}
+.main{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+ion-card {
+  position: relative;
+  margin: 5px 15px;
+  width: 210px;
+  height: 120px;
+}
+
+.card-fundos-page {
+
+  ion-card {
+    position: relative;
+    margin: 5px 15px;
+    width: 210px;
+    height: 120px;
+  }
+
+  .card-title {
+    position: absolute;
+    top: 36%;
+    font-size: 2.0em;
+    width: 100%;
+    // font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+ 
+}

@@ -1,0 +1,7 @@
+{
+  "name": "GrownTree",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

@@ -1,0 +1,85 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title style="text-align: center">
+      Como começar?
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-row>
+      <ion-col class="title-home">
+        Pesquise o fundo pelo nome, cnpj ou<br>através de uma imagem
+      </ion-col>
+    </ion-row>
+
+    <ion-searchbar class="pesquisa" (ionInput)="getItems($event)"></ion-searchbar>
+    
+    <ion-title style="margin-top: 30px; margin-bottom: 15px;">
+      Objetivos
+      <ion-text class="verTodos">
+         <button style="background-color: transparent;"><strong>Ver todos</strong></button>
+      </ion-text>
+    </ion-title>
+    
+    <ion-content class="card-fundos-page">
+      <ion-card style="float: left">
+        <div class="card-title">Casa Própria</div>
+      </ion-card>
+    
+      <ion-card style="float: right">
+        <div class="card-title">Viagem</div>
+      </ion-card>
+    
+      <ion-card style="float: left">
+        <div class="card-title">Aposentadoria</div>
+      </ion-card>
+    
+      <ion-card style="float: right">
+        <div class="card-title">Resgate a qualquer hora</div>
+      </ion-card>
+    </ion-content>
+
+
+    <!-- ----------------------------- -->
+    <ion-title style="margin-top: 15px; margin-bottom: 20px;">
+        Mais buscados
+        <ion-text class="verTodos">
+            <button style="background-color: transparent;"><strong>Ver todos</strong></button>
+        </ion-text>
+    </ion-title>
+    <ion-content class="card-fundos-page">
+    <ion-slides pager>
+
+        <ion-slide style="width: 210px; height: 120px; !important;">
+          <ion-card>
+            <div class="card-title">Casa Própria</div>
+          </ion-card>
+        </ion-slide>
+      
+        <ion-slide style="width: 210px; height: 120px; !important;">
+          <ion-card>
+            <div class="card-title">Viagem</div>
+          </ion-card>
+        </ion-slide>
+      
+        <ion-slide style="width: 210px; height: 120px; !important;">
+          <ion-card>
+            <div class="card-title">Aposentadoria</div>
+          </ion-card>
+        </ion-slide>
+        
+        <ion-slide style="width: 210px; height: 120px; !important;">
+          <ion-card>
+            <div class="card-title">Resgate a qualquer hora</div>
+          </ion-card>
+          </ion-slide>
+      </ion-slides>
+    </ion-content>
+      <!-- ----------------------------- -->
+
+    
+       
+     
+    
+</ion-content>
